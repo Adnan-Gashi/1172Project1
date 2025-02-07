@@ -1,0 +1,106 @@
+
+body{
+    background-color: antiquewhite;
+}
+h1{
+    font-style: oblique;
+}
+div{
+    background-color: #e6d7ff;
+    width: 500px;
+    border: 2px solid black;
+}
+.customDiv{
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+#Education_Summary{
+    width: 500px;
+    background-color: #e6d7ff;
+    border: 2px solid black;
+  
+}
+
+#Work_Experience{
+    width: 500px;
+    background-color: #e6d7ff;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding-bottom: 20px;
+}
+
+.Projects{
+
+    margin-left: -20px;
+    padding-right: 40px;
+    background-color: #e6d7ff;
+    width: 500px;
+    
+}
+.ul1{
+    list-style-type: square;
+    
+}
+li{
+    border-bottom: 2px solid black;   
+}
+table {
+    border: 2px solid black;
+    
+}
+th{
+    background-color: #FFFFED;
+    font-size: small;
+    border: 2px solid black;
+}
+
+td{
+    border: 2px solid black;
+
+}
+#General_Interests{
+    background-color: #e6d7ff;
+    border: 2px solid black;
+}
+form {
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid lightcyan;
+}
+#Favorite_Media{
+    height:auto;
+}
+#Favorite_Websites{
+    height:auto;
+}
+.button_Link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #EDF6FF;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+    padding-bottom: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+span.menu a{
+    padding-bottom: 10px;
+    font-style: oblique;
+    text-decoration: none;
+    height: auto;
+    width: auto;
+    margin-left: -20px;
+    
+}
