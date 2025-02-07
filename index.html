@@ -1,13 +1,21 @@
 <html>
     <head>
         <title> Adnan Gashi Profile Page</title>
+        
+        <style>
+            section{
+                border-bottom: 2px solid black;
+                width: auto;
+            }
+        </style>
 
+        <link rel="stylesheet" href = "Gashi1172Project.css">
     </head>
     <body>
     
-    <div id="Top of the Page">
+    <section id="Top_of_the_Page">
         
-        <img width=180px src= "https://symbl-world.akamaized.net/i/webp/93/8a91e3dd808674843a4eb5531a0eb3.webp">
+        <img style="border: 2px solid black; background-color: white;" width=150px src= "https://symbl-world.akamaized.net/i/webp/93/8a91e3dd808674843a4eb5531a0eb3.webp">
         
         <h1>Hello My Name is Adnan Gashi</h1>
         
@@ -15,9 +23,9 @@
             Hello my name is Adnan Gashi and I am a senior studying Computer Science
             here at St.John's University. 
         </p>
-    </div>
+    </section>
 
-    <div id="Education Summary"> 
+    <div id="Education_Summary" class="customDiv"> 
 
         <h2>Education Summary</h2>
 
@@ -29,28 +37,31 @@
         </p>
     </div>
 
-    <div id="Work Experience"> 
+    <div id="Work_Experience" class="customDiv"> 
 
         <h2>Work Experience</h2>
 
         <p> I have no work experience but I am currently looking for an internship.</p>
-       
+       <section class="Projects">
+        
         <h4>Projects</h4>
         
-        <ul>
-            <li> Created a prop website for students to apply for scholarships</li>
-            <li> Created a Java program that sorts a book by word based on frequency</li>
-            <li> Created a Java program for stock management</li>
-        </ul>
+            <ul class="ul1">
+                <li> Created a prop website for students to apply for scholarships</li>
+                <li> Created a Java program that sorts a book by word based on frequency</li>
+                <li> Created a Java program for stock management</li>
+            </ul>
+
+        </section>
     </div>
 
-    <div id="Programming Experience"> 
+    <div id="Programming_Experience" class="customDiv"> 
         <h2>Programming Experience</h2>
 
         <table>
             <tr>
-                <th>Proficient/</th>
-                <th>Somewhat Proficient/</th>
+                <th>Proficient</th>
+                <th>Somewhat Proficient</th>
                 <th>Knowledgeable On</th>
             </tr>
             <tr>
@@ -73,7 +84,7 @@
         </table>
     </div>
     
-    <di id="General Interests">
+    <div id="General_Interests" class="customDiv">
 
         <h2>General Interests</h2>
 
@@ -85,7 +96,7 @@
         </p>
     </div>
 
-    <div id="Favorite Media"> 
+    <div id="Favorite_Media" class="customDiv"> 
         <h3>Favorites</h3>
 
             <h5>Favorite Song: Love. by Kid Cudi</h5>
@@ -103,40 +114,42 @@
             </form>
     </div>
         
-    <div id="Favorite Websites">
+    <div id="Favorite_Websites" class="customDiv">
             
         <h3> Favorite Websites</h3>
 
             <p>These two websites linked below are two that I use to study Python and Java:</p>
             
-            <a href="https://www.practicepython.org/exercises/" target="_blank">Practice Python</a><br>
+            <a class="button_Link" href="https://www.practicepython.org/exercises/" target="_blank">Practice Python</a><br>
             
-            <a href="https://codingbat.com" target="_blank">Coding Bat</a>
+            <a class="button_Link" href="https://codingbat.com" target="_blank">Coding Bat</a>
             
             <p>This next website I use whenever I want to bake something sweet and I have the time for it:</p>
             
-            <a href="https://www.thepioneerwoman.com/food-cooking/meals-menus/g31995037/best-pie-recipes/?slide=50" target="_blank">Pie Recipes</a>
+            <a class="button_Link" href="https://www.thepioneerwoman.com/food-cooking/meals-menus/g31995037/best-pie-recipes/?slide=50" target="_blank">Pie Recipes</a>
      </div>
-    <span>
 
-        <h3>Menu</h3>
-            <menu>
-                <a href="#Top of the Page">Introduction</a><br>
-                <a href="#Education Summary">Education Summary</a><br>
-                <a href="#Work Experience">Work Experience</a><br>
-                <a href="#Programming Experience">Programming Experience</a><br>
-                <a href="#General Interests">General Interests</a><br>
-                <a href="#Favorite Media">Favorite Media</a><br>
-                <a href="#Favorite Websites">Favorite Websites</a><br>
-            </menu>
-    </span>
-    <div> 
+    <div class="Course_Projects"> 
 
         <h3>Course Projects</h3>
 
         <p> Nothing here at the moment. Will be updated soon.</p>
     </div>
+    
+    <span class="menu">
 
+        <h3>Menu</h3>
+            <menu>
+                <a href="#Top_of_the_Page">Introduction</a><br>
+                <a href="#Education_Summary">Education Summary</a><br>
+                <a href="#Work_Experience">Work Experience</a><br>
+                <a href="#Programming_Experience">Programming Experience</a><br>
+                <a href="#General_Interests">General Interests</a><br>
+                <a href="#Favorite_Media">Favorite Media</a><br>
+                <a href="#Favorite_Websites">Favorite Websites</a><br>
+            </menu>
+    </span>
+   
     </body>
 
 </html>
